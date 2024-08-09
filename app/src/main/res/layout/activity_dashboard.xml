@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <Button
+        android:id="@+id/Dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="#FFFF"
+        android:foregroundTint="#F44336"
+        android:shadowColor="#F44336"
+        android:text="Dashboard"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:textColorHighlight="#FA0606"
+        android:textColorHint="#F6082C"
+        android:textColorLink="#F30505"
+        app:rippleColor="#6A0909"
+        app:strokeColor="#F30505"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/wisuda"
+        android:layout_marginTop="20pt"
+        android:layout_marginBottom="20pt"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <Button
+        android:id="@+id/btnLihatData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="#FFFF"
+        android:foregroundTint="#F44336"
+        android:shadowColor="#F44336"
+        android:text="LIHAT DATA"
+        android:textColorHighlight="#FA0606"
+        android:textColorHint="#F6082C"
+        android:textColorLink="#F30505"
+        app:icon="@drawable/baseline_arrow_drop_down_circle_24"
+        app:iconSize="30dp"
+        app:iconTint="#FAF9F9"
+        app:rippleColor="#6A0909"
+        app:strokeColor="#F30505"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:id="@+id/tvKosong2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnInputData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="#FFFF"
+        android:foregroundTint="#F44336"
+        android:shadowColor="#F44336"
+        android:text="INPUT DATA"
+        android:textColorHighlight="#FA0606"
+        android:textColorHint="#F6082C"
+        android:textColorLink="#F30505"
+        app:icon="@drawable/baseline_add_circle_24"
+        app:iconSize="30dp"
+        app:iconTint="#FAF9F9"
+        app:rippleColor="#6A0909"
+        app:strokeColor="#F30505"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/tvKosong3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnInformasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="#FFFF"
+        android:foregroundTint="#F44336"
+        android:shadowColor="#F44336"
+        android:text="INFORMASI"
+        android:textColorHighlight="#FA0606"
+        android:textColorHint="#F6082C"
+        android:textColorLink="#F30505"
+        app:icon="@drawable/baseline_info_24"
+        app:iconSize="30dp"
+        app:iconTint="#FAF9F9"
+        app:rippleColor="#6A0909"
+        app:strokeColor="#F30505"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/tvKosong4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+
+
+</LinearLayout>

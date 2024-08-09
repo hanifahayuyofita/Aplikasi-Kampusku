@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikasi Kampusku</string>
+
+    <string-array name="Pilihan">
+        <item>Lihat Data</item>
+        <item>Update Data</item>
+        <item>Hapus Data</item>
+    </string-array>
+</resources>
